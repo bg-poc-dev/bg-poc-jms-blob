@@ -1,0 +1,9 @@
+activemq:
+  broker-url: tcp://localhost:61616?jms.blobTransferPolicy.defaultUploadUrl=http://localhost:8080/files/
+
+queue:
+  blob: blob.q
+
+tmpdir: /tmp/ofb/
+server:
+  port: 8082
